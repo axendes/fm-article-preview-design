@@ -255,9 +255,12 @@
         padding: 2rem 2rem 1.5rem;
     }
 
+    .card__author-wrapper {
+        z-index: 999;
+    }
+
     .card__img-wrapper {
         height: 200px;
-        z-index: -2;
     }
 
     .card__img {
