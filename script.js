@@ -22,6 +22,11 @@ function activatePopup(e) {
 }
 
 function diactivatePopup() {
+    if (window.innerWidth <= 900) {
+        authorImg.classList.remove("visually-hidden");
+        nameDate.classList.remove("visually-hidden");
+    }
+
     shareBtn.classList.remove("card__share--active");
     popupShare.classList.remove("card__popup-wrapper--active");
 }
